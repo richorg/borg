@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'vcr';
+	src: url('/font/VCR.woff')
+	format('woff')
+}
+body {
+    background-color: #111;
+    color: white;
+    font-family: vcr;
+}
+#vidTitle {
+    position:relative;
+    font-size: 45px;
+    font-family: vcr;
+    text-transform: uppercase;
+    z-index: 1;
+    display block;
+    padding: 15px;
+}
+#vidContainer {
+    margin: auto;
+    width: 70%;
+    position: relative;
+}
+#vidPlayer {
+    width: 100%;
+}
+#vidFooter {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#vidFooter P {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+#vidFooter a {
+    width: 100%;
+    text-align: center;
+    display: block;
+    font-family: vcr;
+    font-size: 30px;
+    color: lightblue;
+}
