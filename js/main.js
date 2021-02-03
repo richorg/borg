@@ -51,4 +51,4 @@ vidPlayer.addEventListener("play", (event) => {
 });
 */
 
-createBin();    
+createBin();

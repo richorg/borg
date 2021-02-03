@@ -10,20 +10,21 @@ body {
 }
 #vidTitle {
     position:relative;
-    font-size: 45px;
     font-family: vcr;
     text-transform: uppercase;
     z-index: 1;
-    display block;
+    display: block;
     padding: 15px;
 }
 #vidContainer {
     margin: auto;
     width: 70%;
+    height: auto;
     position: relative;
 }
 #vidPlayer {
     width: 100%;
+    height: auto;
 }
 #vidFooter {
     display: block;
@@ -41,6 +42,29 @@ body {
     text-align: center;
     display: block;
     font-family: vcr;
-    font-size: 30px;
     color: lightblue;
 }
+
+@media only screen and (max-width: 768px) {
+    #vidFooter a {
+        font-size: 10px;
+    }
+    #vidFooter p {
+        font-size: 8px;
+    }
+    #vidTitle {
+        font-size: 16px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    #vidFooter a {
+        font-size: 20px;
+    }
+    #vidFooter p {
+        font-size: 14px;
+    }
+    #vidTitle {
+        font-size: 34px;
+    }
+  }
