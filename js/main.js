@@ -22,17 +22,17 @@ function createBin(){
     var para = document.createTextNode(vidStr);
 
     // Player
-    vidPlayer.setAttribute("src", vidURL);
-    vidPlayer.setAttribute("controls", "controls"); 
+    vidPlayer.src = vidURL;
 
     // Title
     vidTitle.appendChild(para);
-    document.title = vidStr + " :: BASEMENT.ORG";
+    document.title = vidStr + " :: BASEMENT BIN";
+    document.querySelector('meta[name="description"]').setAttribute("description", vidStr);
     window.history.pushState(null, null, "?v=" + vidID);
 
-    // Event listeners to remove display
+    // Get another when it's done
     vidPlayer.addEventListener("ended", (event) => {
-        console.log("Get another!");
+        location.href = "/";
     });
 }
 
@@ -44,11 +44,5 @@ function toggleTitle() {
         vidTitle.textContent = vidStr;
     }
 }
-/*
-// Event listeners to remove display
-vidPlayer.addEventListener("play", (event) => {
-    toggleTitle();
-});
-*/
 
 createBin();

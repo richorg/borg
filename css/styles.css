@@ -32,21 +32,21 @@ body {
 }
 
 #vidFooter P {
-    width: 100%;
     text-align: center;
     display: block;
+    padding-top: 1em;
 }
 #vidFooter a {
-    width: 100%;
     text-align: center;
     display: block;
     font-family: vcr;
-    color: lightblue;
+    color: rgb(157, 59, 249);
+    padding-top: 1em;
 }
 
 @media only screen and (max-width: 768px) {
     #vidFooter a {
-        font-size: 10px;
+        font-size: 14px;
     }
     #vidFooter p {
         font-size: 8px;
@@ -58,7 +58,7 @@ body {
   
   @media only screen and (min-width: 768px) {
     #vidFooter a {
-        font-size: 20px;
+        font-size: 24px;
     }
     #vidFooter p {
         font-size: 14px;
