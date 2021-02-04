@@ -3,6 +3,9 @@
 	src: url('/font/VCR.woff')
 	format('woff')
 }
+a {
+    color: rgb(205, 154, 253);
+}
 body {
     background-color: #111;
     color: white;
@@ -36,11 +39,10 @@ body {
     display: block;
     padding-top: 1em;
 }
-#vidFooter a {
+#vidFooter a.more-link {
     text-align: center;
     display: block;
     font-family: vcr;
-    color: rgb(157, 59, 249);
     padding-top: 1em;
 }
 
@@ -57,7 +59,7 @@ body {
   }
   
   @media only screen and (min-width: 768px) {
-    #vidFooter a {
+    #vidFooter a.more-link {
         font-size: 24px;
     }
     #vidFooter p {
