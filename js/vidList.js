@@ -9,7 +9,7 @@ var vids = [
     "[FULL] US Woman Begs To Help Her Get Bigger Boobs;.mp4",
     "「野々村議員 政務費不正疑惑 泣き乱しながら潔白主張」を弾いてみたょ【ギター】 1.mp4",
     "「野々村議員 政務費不正疑惑 泣き乱しながら潔白主張」を弾いてみたょ【ギター】.mp4",
-    "【第7回MMD杯Ex】 ロード・オブ・ザ・リングでEVERYBODY; 3d; short; top60.mp4",
+    "Everybody Shit 3D; 3D.mp4",
     "#1 Butt Satisfier (Low).mp4",
     "1-800 Victim2, The 3rd Commercial, this time with a dancing squirrel!.mp4",
     "3 Minute Narcotic Justice (SD).mp4",
