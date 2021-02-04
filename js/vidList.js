@@ -582,7 +582,6 @@ var vids = [
     "Living Photograph - Chris with Teacup; top40; mute.mp4",
     "Locker Shot 2 Trunk Shot; mute.mp4",
     "Lol Spiderman, Batman & Ironman Get Loose At A Kids Party!; top40;.mp4",
-    "LonelyRich.mp4",
     "longest beutiful model fall maria lafuente runway; short;.mp4",
     "Lotto; mute.mp4",
     "Love Marriage - Wilbur Sargunaraj- Official Music Video; mv;.mp4",
