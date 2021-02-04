@@ -10,11 +10,15 @@ function getVid() {
     }
     return selectedVid;
 }
+function s3URL(rawURL) {
+    rawURL = encodeURIComponent(rawURL);
+    return(rawURL.replaceAll("%20", "+"));
+}
 
 var vidID = getVid();
 var vidFile = vids[vidID];
 var vidStr = vidFile.slice(0, -4);
-var vidURL = "https://binvids.s3.us-east-2.amazonaws.com/" + vidFile;
+var vidURL = "https://binvids.s3.us-east-2.amazonaws.com/" + s3URL(vidFile);
 var vidPlayer = document.getElementById("vidPlayer");
 var vidTitle = document.getElementById("vidTitle");  
 
@@ -24,10 +28,11 @@ function createBin(){
     // Player
     vidPlayer.src = vidURL;
 
-    // Title
+    // Title applied everywhere
     vidTitle.appendChild(para);
     document.title = vidStr + " :: BASEMENT BIN";
-    document.querySelector('meta[name="description"]').setAttribute("description", vidStr);
+    
+    // document.querySelector('meta[name="description"]').setAttribute("description", vidStr);
     window.history.pushState(null, null, "?v=" + vidID);
 
     // Get another when it's done

@@ -519,7 +519,7 @@ var vids = [
     "Joey Ryan uses his penis to win a test of strength over Danshoku Dino at DDT Pro Wrestling!.mp4",
     "John Cena Prank Call.mp4",
     "Johnny Football.mp4",
-    "Johnny Gold - Minden Jó Velem (C... (HD; mv.mp4",
+    "Johnny Gold - Minden Jo Velem (C... (HD; mv.mp4",
     "Jon Counts To 100,000 (Low).mp4",
     "Jones Good Ass BBQ & Foot Massage.mp4",
     "Judge to Child Molester 'I Think... (High); court.mp4",
