@@ -48,11 +48,11 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-    #vidFooter a {
-        font-size: 14px;
+    #vidFooter a.more-link {
+        font-size: 18px;
     }
-    #vidFooter p {
-        font-size: 8px;
+    #vidFooter p, #vidFooter a {
+        font-size: 12px;
     }
     #vidTitle {
         font-size: 16px;
@@ -63,7 +63,7 @@ body {
     #vidFooter a.more-link {
         font-size: 24px;
     }
-    #vidFooter p {
+    #vidFooter p, #vidFooter a {
         font-size: 14px;
     }
     #vidTitle {
