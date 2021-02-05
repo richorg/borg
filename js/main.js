@@ -31,7 +31,7 @@ function createBin(){
     document.title = metaInfo;
     
     document.querySelector('meta[property="og:title"]').setAttribute("content", metaInfo;
-    document.querySelector('meta[property="twitter:title"]').setAttribute("value", metaInfo;
+    document.querySelector('meta[name="twitter:title"]').setAttribute("value", metaInfo;
     document.querySelector('meta[name="description"]').setAttribute("content", metaInfo;
     window.history.pushState(null, null, "?v=" + vidID);
 
