@@ -29,7 +29,8 @@ function createBin(){
     vidTitle.appendChild(para);
     document.title = vidInfoTitle + " :: BASEMENT BIN";
     
-    // document.querySelector('meta[name="description"]').setAttribute("description", vidStr);
+    document.querySelector('meta[property="og:title"]').setAttribute("content", vidInfoTitle);
+    document.querySelector('meta[name="description"]').setAttribute("content", vidInfoTitle);
     window.history.pushState(null, null, "?v=" + vidID);
 
     // Get another when it's done
