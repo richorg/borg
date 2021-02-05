@@ -21,16 +21,18 @@ var vidTitle = document.getElementById("vidTitle");
 
 function createBin(){
     var para = document.createTextNode(vidInfoTitle);
+    var metaInfo = vidInfoTitle + " : BASEMENT BIN";
 
     // Player
     vidPlayer.src = vidURL;
 
     // Title applied everywhere
     vidTitle.appendChild(para);
-    document.title = vidInfoTitle + " :: BASEMENT BIN";
+    document.title = metaInfo;
     
-    document.querySelector('meta[property="og:title"]').setAttribute("content", vidInfoTitle);
-    document.querySelector('meta[name="description"]').setAttribute("content", vidInfoTitle);
+    document.querySelector('meta[property="og:title"]').setAttribute("content", metaInfo;
+    document.querySelector('meta[property="twitter:title"]').setAttribute("value", metaInfo;
+    document.querySelector('meta[name="description"]').setAttribute("content", metaInfo;
     window.history.pushState(null, null, "?v=" + vidID);
 
     // Get another when it's done
