@@ -37,5 +37,4 @@ function createBin(){
         location.href = "/";
     });
 }
-
 createBin();
