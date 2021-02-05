@@ -30,9 +30,9 @@ function createBin(){
     vidTitle.appendChild(para);
     document.title = metaInfo;
     
-    document.querySelector('meta[property="og:title"]').setAttribute("content", metaInfo;
-    document.querySelector('meta[name="twitter:title"]').setAttribute("value", metaInfo;
-    document.querySelector('meta[name="description"]').setAttribute("content", metaInfo;
+    document.querySelector('meta[property="og:title"]').setAttribute("content", metaInfo);
+    document.querySelector('meta[name="twitter:title"]').setAttribute("value", metaInfo);
+    document.querySelector('meta[name="description"]').setAttribute("content", metaInfo);
     window.history.pushState(null, null, "?v=" + vidID);
 
     // Get another when it's done
