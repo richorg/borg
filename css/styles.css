@@ -5,55 +5,52 @@
 }
 a {
     color: rgb(205, 154, 253);
+    display: block;
+}
+p {
+    margin: 0;
 }
 body {
     background-color: #111;
     color: white;
     font-family: vcr;
+    margin: 2vh;
+    font-family: vcr;
     text-transform: uppercase;
 }
-#vidContainer {
-    margin:0 auto;
-    height:100%;
-    width: 100%;
-    text-align:center;
-    overflow:hidden;
-    max-width:178vh;
-}
-#vidPlayer {
-    margin: 2vh 0;
-    height:50%;
-    width:100%;
-}
-p {
-    margin: 0;
-}
-a.more-link {
+#vidTitle {
+    position:relative;
     display: block;
 }
-@media only screen and (max-width: 768px) {
-    a.more-link {
-        font-size: 16px;
-        margin-bottom: 2.5vh;
+#vidFooter p {
+    font-size: 12px;
+    color: #555;
+}
+
+@media only screen and (max-width: 800px) {
+    video {
+        width: 95%;
+        margin: 20px 0;
     }
-    #vidFooter p {
-        font-size: 12px;
-        color: rgb(74, 74, 74);
+    a {
+        font-size: 18px;
+        margin-bottom: 20px;
     }
     #vidTitle {
         font-size: 20px;
     }
   }
   
-  @media only screen and (min-width: 768px) {
-    a.more-link {
-        font-size: 24px;
-        margin-bottom: 5vh;
+  @media only screen and (min-width: 800px) {
+    video {
+        width: 75%;
+        margin: 30px 0;
     }
-    #vidFooter p {
-        font-size: 14px;
+    a {
+        font-size: 24px;
+        margin-bottom: 30px;
     }
     #vidTitle {
-        font-size: 28px;
+        font-size: 30px;
     }
   }
